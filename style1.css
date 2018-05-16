@@ -69,6 +69,7 @@ body {
   #main-summary,
   #image {
     float: left;
+    padding: 10px
   }
   
   #figure {
@@ -81,6 +82,7 @@ body {
   
 table, th, td {
     border-collapse: collapse;
+    margin: 50px;
 }
 
 th, td {
