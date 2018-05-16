@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temp Visualization</title>
+    <link rel="stylesheet" type="text/css" href=".\style1.css">
+     <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+
+<div class="topnav">
+    <a class="active" href=".\Summary.html">Home</a>
+    <div class = "dropdown">
+        <button class ="dropbtn">Visualizations
+            <i class = "fa fa-care-down"></i>
+        </button>
+    <div class = "dropdown-content">
+        <a href=".\Temperature.html">Temperature</a>
+        <a href=".\Humidity.html">Humidity</a>
+        <a href=".\Cloudiness.html">Cloudiness</a>
+        <a href=".\Wind-Speed.html">Wind Speed</a>
+    </div>    
+    </div>
+    <a href=.\Comparison.html>Comparison</a>
+    <a href=".\Data.html">Data</a>
+  </div>
+
+<body>
+    <div class="container">       
+            <div class = "row">
+                <h2 id="section-title">Comparison</h2>
+            </div>
+            
+            <div class = "row">
+            <div class = "col-md-6 col-xs-12">
+                <a target="_blank" href=".\Temperature.html">
+                    <img id="image"src=".\WeatherPy - Temperature v Latitude.png" alt="Temperature vs. Latitude Map">
+                </a>
+            </div>
+
+            <div class = "col-md-6 col-xs-12">    
+                <a target="_blank" href=".\Humidity.html">
+                   <img id="image"src=".\WeatherPy - Humidity v Latitude.png" alt="Humidity vs. Latitude Map">
+                </a>
+            </div>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-6 col-xs-12">
+                    <a target="_blank" href=".\Cloudiness.html">
+                        <img id="image"src=".\WeatherPy - Cloudiness v Latitude.png" alt="Cloudiness vs. Latitude Map">
+                    </a>
+                </div>
+            
+                <div class = "col-md-6 col-xs-12">
+                    <a target="_blank" href=".\Wind-Speed.html">
+                        <img id="image"src=".\WeatherPy - Wind Speed v Latitude.png" alt="Wind Speed vs. Latitude Map">
+                     </a>          
+                </div>
+            </div>
+            
+             
+          
+    </div>
+
+</body>
+</html>
